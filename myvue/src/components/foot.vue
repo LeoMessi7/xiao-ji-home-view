@@ -11,7 +11,7 @@
         </el-col>
         <el-col :span="8" >
           <p style=" font-size:18px;font-weight:bold;">加入小济</p><br>
-          <p style="font-size:14px;">QQ邮箱：123455667@qq.com</p><br>
+          <p style="font-size:14px;">QQ邮箱：1367027689@qq.com</p><br>
         </el-col>
       </el-row>
     </div>
@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: "foot"
+  name: "foot",
 }
 </script>
 

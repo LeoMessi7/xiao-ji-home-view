@@ -2,7 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import Login from './components/Login'
+import Login from './components/download'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'wowjs/css/libs/animate.css'

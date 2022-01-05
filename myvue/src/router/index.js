@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import index from '../components/index'
+
+import home from '../components/home'
 import introduce from '../components/introduce'
-import usetool from '../components/usetool'
-import Login from '../components/Login'
+import download from '../components/download'
 import bar from '../components/bar'
 import foot from "../components/foot"
 import 'animate.css'
@@ -16,8 +16,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'introduce',
-      component: introduce
+      name: 'home',
+      component: home
     },
     {
       path: '/bar',
@@ -30,14 +30,14 @@ export default new Router({
       component: foot
     },
     {
-      path:'/Login',
-      name:'Login',
-      component:Login
+      path:'/introduce',
+      name:'introduce',
+      component:introduce
     },
     {
-      path: '/usetool',
-      name: 'usetool',
-      component: usetool
+      path: '/download',
+      name: 'download',
+      component: download
     },
 
   ]
